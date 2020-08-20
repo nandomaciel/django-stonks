@@ -6,7 +6,7 @@ ws=websocket.WebSocket()
 
 ws.connect('ws://localhost:8000/ws/tableData/')
 
-listOfindex = ['A', 'B', 'C', 'D', 'E']
+listOfindex = ['stock1', 'stock2', 'stock3', 'stock4', 'stock5']
 
 for i in range(100):
     import time

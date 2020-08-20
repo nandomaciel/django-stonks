@@ -22,6 +22,14 @@ pip3 install requirements.txt
 python manage.py runserver
 ``` 
 
+## DB
+
+**Redis**
+
+``` shell
+docker run -p 6379:6379 -d redis:5
+```
+
 ## Browser
 
 ``` js
